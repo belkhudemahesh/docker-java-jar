@@ -7,7 +7,7 @@ on:
 
 jobs:
 
-  artifact:
+  build:
 
     name: Test master branch - GitHub Packages
     runs-on: ubuntu-latest
