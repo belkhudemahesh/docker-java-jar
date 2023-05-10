@@ -1,14 +1,11 @@
 name: Master - Testing
-
 on:
   push:
     branches:
       - 'master'
-
 jobs:
 
-  artifact:
-
+  build:
     name: Test master branch - GitHub Packages
     runs-on: ubuntu-18.04
 
