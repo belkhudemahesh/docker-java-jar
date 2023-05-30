@@ -25,5 +25,5 @@ jobs:
 
     - name: 'Build and push Image'
       run: |
-        docker build . --tag ghcr.io/belkhudemahesh/store:latest
-        docker push ghcr.io/belkhudemahesh/store:latest
+        docker build . --tag ghcr.io/belkhudemahesh/Todo-nginx:latest
+        docker push ghcr.io/belkhudemahesh/Todo-nginx:latest
