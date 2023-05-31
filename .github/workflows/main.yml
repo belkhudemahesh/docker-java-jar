@@ -25,5 +25,5 @@ jobs:
 
     - name: 'Build and push Image'
       run: |
-        docker build . --tag ghcr.io/belkhudemahesh/static:latest
-        docker push ghcr.io/belkhudemahesh/static:latest
+        docker build . --tag ghcr.io/belkhudemahesh/dockerhubimage:latest
+        docker push ghcr.io/belkhudemahesh/dockerhubimage:latest
